@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -119,22 +120,24 @@ function Home() {
                     </div>
 
                     {/* Button to view all rooms - positioned at bottom-right */}
-                    <button
-                        style={{
-                            position: "absolute",  // Absolute positioning relative to card
-                            bottom: "15px",        // Distance from the bottom of the card
-                            right: "15px",         // Distance from the right of the card
-                            padding: "10px 20px",
-                            backgroundColor: "#E89700",
-                            color: "white",
-                            border: "none",
-                            borderRadius: "5px",
-                            cursor: "pointer",
-                            fontWeight: "bold",
-                        }}
-                    >
-                        ดูห้องพักทั้งหมด
-                    </button>
+                    <Link to="/all-room">
+                        <button
+                            style={{
+                                position: "absolute",  // Absolute positioning relative to card
+                                bottom: "15px",        // Distance from the bottom of the card
+                                right: "15px",         // Distance from the right of the card
+                                padding: "10px 20px",
+                                backgroundColor: "#E89700",
+                                color: "white",
+                                border: "none",
+                                borderRadius: "5px",
+                                cursor: "pointer",
+                                fontWeight: "bold",
+                            }}
+                        >
+                            ดูห้องพักทั้งหมด
+                        </button>
+                    </Link>
                 </div>
             </div>
 
