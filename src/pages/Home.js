@@ -120,7 +120,7 @@ function Home() {
                     </div>
 
                     {/* Button to view all rooms - positioned at bottom-right */}
-                    <Link to="/all-room">
+                    <Link to="/standard">
                         <button
                             style={{
                                 position: "absolute",  // Absolute positioning relative to card

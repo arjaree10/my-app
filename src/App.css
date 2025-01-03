@@ -1,6 +1,19 @@
 .App {
   text-align: center;
 }
+.bg-warning2{
+  background-color: rgb(232, 151, 0);
+}
+.btn-outline-warning2 {
+  background-color: rgb(232, 151, 0) !important; /* สีพื้นหลัง */
+  color: white !important; /* สีตัวอักษร */
+  border: 1px solid rgb(232, 151, 0) !important; /* สีกรอบปุ่ม */
+}
+
+.btn-outline-warning2:hover {
+  background-color: rgb(255, 165, 0) !important; /* สีเมื่อ hover (สีส้มสว่าง) */
+  color: white !important;
+}
 
 .App-logo {
   height: 40vmin;
