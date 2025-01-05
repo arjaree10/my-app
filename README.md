@@ -1,5 +1,5 @@
-npm install sweetalert2
-npm install react-router-dom
+npm install sweetalert2 <br>
+npm install react-router-dom <br>
 
 # Getting Started with Create React App
 
