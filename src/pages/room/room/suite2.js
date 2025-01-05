@@ -40,7 +40,7 @@ const ContactPage = () => {
                             <li>🍽️ รวมอาหารเช้า 2 ที่</li>
                         </ul>
                         <p className="text-muted">ยกเลิกฟรีก่อน 8 ม.ค. 2025 18:00 น.</p>
-                        <button className="btn btn-primary w-100">เลือกห้องพัก</button>
+                         <Link to="/suitebuy2"  className="btn btn-primary w-100">เลือกห้องพัก</Link>
                     </div>
                 </div>
             </div>
